@@ -1,0 +1,36 @@
+#addBlogContainer{
+    width: 50%;
+    margin-left: 25%;
+    background-color: #dad8e8;
+    margin-top: 10%;
+}
+#addBlogform{
+    display: flex;
+    flex-direction: column;
+}
+#addBlogform textarea {
+  height: 250px;
+}
+
+#addBlogform img{
+    width: 5%;
+    height: 5%;
+    margin-right: 1%;
+}
+.inputElements{
+    width: 90%;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.678);
+    box-shadow: 2px 3px 5px 3px rgba(0,0,0,0.81);
+-webkit-box-shadow: 2px 3px 5px 3px rgba(0,0,0,0.81);
+-moz-box-shadow: 2px 3px 5px 3px rgba(0,0,0,0.81);
+color: black;
+font-size: 20px;
+align-items: center;
+}
+
+.formInputs{
+    display: flex;
+    justify-content: start;
+    padding: 20px 30px;
+}

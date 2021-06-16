@@ -1,0 +1,101 @@
+#mainContainer{
+    width: 60%;
+    position: relative;
+    left: 20%;
+    right: 20%;
+    padding-top: 100px;
+    margin-bottom: 200px;
+}   
+#searchBlog{
+    width: 100%;
+    margin-bottom: 30px;  
+}
+#responseText{
+    text-align: center;
+}
+#searchAndAddBlog{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+#form{
+    display: flex;
+    width: 100%;
+}
+#form input {
+    background-image: url('../images/search.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 60px;
+    padding-top: 5px;
+    background-color: rgb(219, 219, 219);
+    font-size: 20px;
+    padding: 5px;  
+    width: 80%;
+    margin-left: 1%;
+
+}
+#form button{
+    width: 19%;
+    height: 60px;
+    margin-left: 5px;
+    font-size: 20px;
+    background-color: #2f5390;
+    font-weight: bold;
+    color: whitesmoke;
+
+}
+#form button:hover{
+   background-color: rgb(97, 97, 117);
+    font-size: 25px;
+    transition: 0.35s;
+}
+#addBlogLink{
+    width: 200px;
+    height: 60px;
+    margin-left: 10px;
+    font-size: 33px;
+    font-weight: bold;
+    margin-top: 10px;  
+}
+#addBlogText{
+    color: #2e5aa5;
+    text-decoration: none;
+
+}
+#addBlogText:hover{
+    color: #0b1b36;
+    font-size: 35px;
+
+}
+#multiBlogLink{
+    overflow: hidden;
+
+}
+#searchedBlogs{  
+    overflow: hidden;
+}
+#links{
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: start;
+    padding-bottom: 20px;
+}
+.link{
+    width: 25%;
+    height: 50px;
+    border: none;
+    background-color: #2f5390;
+    font-size: 20px;
+    color: aliceblue;
+}
+.link:hover{
+    transition: 0.35s;
+    width: 28%;
+    height: 52px;
+    background-color: rgb(90, 120, 146);
+    font-size: 21px;
+
+}

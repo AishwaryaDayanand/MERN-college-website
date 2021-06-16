@@ -1,0 +1,42 @@
+#logoutContainer{
+    width: 25%;
+    background-color: #dad8e8;
+    margin: 10% auto;
+    box-shadow: 1px 1px 5px 4px rgba(202,189,189,0.75);
+-webkit-box-shadow: 1px 1px 5px 4px rgba(202,189,189,0.75);
+-moz-box-shadow: 1px 1px 5px 4px rgba(202,189,189,0.75);
+}
+#user{
+    position: relative;
+    padding-top: 20%;
+    text-align: center;
+    color:#29487d;
+
+}
+#user h3{
+    margin-top: 5%;
+}
+#logoutBtn{
+    text-align: center;
+    margin-top: 40%;
+    padding-bottom: 20%;
+}
+#logoutBtn input{
+    border: none;
+    background-color: #dad8e8;
+    width: 30%;
+    height: 40px;
+    color:#29487d;
+    border: 2px solid #29487d;
+    border-radius: 25px;
+    font-weight: bold;
+}
+#logoutBtn input:hover{
+    background-color: #29487d;
+    color:#dad8e8;
+    width: 32%;
+    height: 45px;
+    transition: 0.25s;
+    /* border: 2px solid #dad8e8; */
+
+}
